@@ -17,6 +17,9 @@ module.exports = {
         new CleanWebpackPlugin()
         // new HTMLW
     ],
+    resolve: {
+        extensions: ['.js', '.jsx',],
+    },
     module: {
         //настрйока импорта
         rules:[
